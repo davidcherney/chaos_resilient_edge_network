@@ -10,7 +10,7 @@ An extension of [EdgeSimPy](https://github.com/EdgeSimPy/EdgeSimPy), a simulator
 
 Let
 - $E$ be energy consumption of the network (excluding user equipment) 
-- $D$ be the mean of delays (latency) 
+- $ D $ be the mean of delays (latency) 
     - the mean is over all current applications running for all users
 - $V$ be the count of SLA violations in the form of current delay for the app being greater than SLA for the app/customer combination
     - the sum is over all application of all users 

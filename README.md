@@ -18,9 +18,9 @@ Let
     - If it is not possible to find a route for an app, then the SLA violation is fundamentally different from an over budget delay violation.
 
 The for some $(d,v)\in\mathbb{R}_+^2$ the model uses
-$$
-\text{Reward} =-\text{Penalty} = - E - dD - vV -nN
-$$
+<p>
+  \(\text{Reward} = -\text{Penalty} = - E - dD - vV -nN\)
+</p>
 where 
 - $d$ is the value of reducing mean latency by 1ms in terms of energy
 - $v$ is the relative value of avoiding a delay SLA violation in terms of energy

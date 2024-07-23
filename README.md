@@ -1,4 +1,4 @@
-# chaos_resilient_edge_network
+# Chaos Resilient Edge Network
 Simulation of edge computing network that autonomously distributes resources to maximize delivery on service level agreements
 
 
@@ -36,6 +36,8 @@ The goal of the project is for a reinforcement learning agent on top of the simu
 - Which server hosts which application
 - Where docker images for instances of application servers are held 
 - Which path from application server to user's base station to use. 
+
+The idea is to augment the resource allocating RL agent created by DISH Wireless's Scientific Staff in [FONPR](https://github.com/DISHDevEx/fonpr) (the first open network patter reactor.)
 
 ## How it works
 A network of edge hosts exists to serve users' applications needs. Edge hosts are colocated with base stations (though this configuration is optional; base stations without edge hosts). Each edge host is running servers for some but not all applications. 

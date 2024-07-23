@@ -19,7 +19,7 @@ Let
 
 The for some $(d,v)\in\mathbb{R}_+^2$ the model uses
 <p>
-  \(\text{Reward} = -\text{Penalty} = - E - dD - vV -nN\)
+  $\text{Reward} = -\text{Penalty} = - E - dD - vV -nN\)$
 </p>
 where 
 - $d$ is the value of reducing mean latency by 1ms in terms of energy

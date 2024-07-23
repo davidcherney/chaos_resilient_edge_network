@@ -10,7 +10,7 @@ An extension of [EdgeSimPy](https://github.com/EdgeSimPy/EdgeSimPy), a simulator
 
 Let
 - $E$ be energy consumption of the network (excluding user equipment) 
-- $ D $ be the mean of delays (latency) 
+- $D$ be the mean of delays (latency) 
     - the mean is over all current applications running for all users
 - $V$ be the count of SLA violations in the form of current delay for the app being greater than SLA for the app/customer combination
     - the sum is over all application of all users 
@@ -19,9 +19,10 @@ Let
 
 The for some $(d,v)\in\mathbb{R}_+^2$ the model uses
 <p>
-  $\text{Reward} = -\text{Penalty} = - E - dD - vV -nN\)$
+  $\text{Reward} = -\text{Penalty} = - E - dD - vV -nN$
 </p>
 where 
+
 - $d$ is the value of reducing mean latency by 1ms in terms of energy
 - $v$ is the relative value of avoiding a delay SLA violation in terms of energy
     - e.g. $v=10$  means that it is worth expending 10 times the energy to avoid a delay SLA violation instead of reducing mean latency by 1ms.
